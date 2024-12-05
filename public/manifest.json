@@ -1,0 +1,21 @@
+{
+  "name": "Rolod3x CRM",
+  "short_name": "Rolod3x",
+  "description": "Your Web3 Contact Management Solution",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -13,7 +13,14 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    },
+    // Ensure the _redirects file is copied to the build output
+    copyPublicDir: true
   },
   optimizeDeps: {
     exclude: ['lucide-react']
